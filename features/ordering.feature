@@ -14,11 +14,11 @@ Feature: Ordering
   Scenario: Check out order
     Given I have added a meal to my order
     When I check out
-    Then I should be prompted to enter my payment information
+    Then I should be prompted to enter my personal information
 
   Scenario: Submit order
     Given I have added a meal to my order
-    And I have entered my payment information
+    And I have entered my personal information
     When I submit my order
     Then I should see my order summary
     And Josh and Angela should be notified
