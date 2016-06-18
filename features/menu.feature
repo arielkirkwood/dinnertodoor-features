@@ -21,6 +21,7 @@ Feature: Menu
     And I confirm my decision
     Then customers should be notified
     And customers should be refunded
+    And the meal should not be listed on the menu
 
   Scenario: This week's meals have been delivered
     Given a week with meals scheduled
