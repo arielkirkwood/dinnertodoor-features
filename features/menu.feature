@@ -1,6 +1,6 @@
 Feature: Menu
-  As Josh and Angela
-  We want to provide a menu of one or more choices each week
+  As Josh or Angela
+  I want to provide a menu of one or more choices each week
   In order to inform our customers about what's available
 
   Scenario: No meal available this week
