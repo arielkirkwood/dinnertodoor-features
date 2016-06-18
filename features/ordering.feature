@@ -1,7 +1,7 @@
 Feature: Ordering
   As a hungry person
   I want to order some of Josh and Angela's delicious food
-  In order to not have to cook on an evening
+  In order to not have to cook this evening
 
   Background:
     Given a meal is available to order
@@ -41,6 +41,7 @@ Feature: Ordering
 
   Scenario: Cancel order
     Given I have placed an order
+    And the order has not been fulfilled
     When I cancel my order
     Then I should be refunded
     And Josh and Angela should be notified
