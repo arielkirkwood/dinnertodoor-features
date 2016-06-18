@@ -28,5 +28,3 @@ Feature: Menu
     When I have delivered all of this week's orders
     Then the menu should be empty
     And customers should be encouraged to return next week
-
-
